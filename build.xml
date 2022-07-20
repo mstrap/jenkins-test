@@ -1,0 +1,13 @@
+<project name="Jenkins" basedir=".">
+	<target name="success">
+		<echo message="success!"/>
+	</target>
+
+	<target name="failure">
+		<fail message="failure!"/>
+	</target>
+
+	<target name="test">
+	</target>
+</project>
+
