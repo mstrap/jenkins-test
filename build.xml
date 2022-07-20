@@ -7,7 +7,7 @@
 		<fail message="failure!"/>
 	</target>
 
-	<target name="test">
+	<target name="test" depends="failure">
 	</target>
 </project>
 
